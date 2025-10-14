@@ -29,6 +29,42 @@ This section contains curated research papers, academic surveys, and theoretical
 | [AI Agents: Evolution, Architecture, and Real-World Applications](https://arxiv.org/pdf/2503.12687.pdf) | Qu et al. | arXiv 2025 | - | Comprehensive review of agent architectures |
 | [A Comprehensive Review of AI Agents](https://arxiv.org/html/2508.11957v1) | Qu et al. | arXiv 2025 | - | Transformation from rule-based to autonomous systems |
 
+## 🧭 Industry and Top Labs Highlights (2024–2025)
+
+Concise highlights of multi-agent and agentic frameworks research from major labs and companies. Entries provide links and a one-line takeaway.
+
+### Google / DeepMind
+- **Windows Agent Arena** — Evaluating multimodal OS agents at scale; tasks across desktop interactions (2024). https://arxiv.org/abs/2409.08264
+- **Chain-of-Agents** — Long-context collaboration patterns for LLMs (blog/tech report, 2025). https://research.google/blog/chain-of-agents-large-language-models-collaborating-on-long-context-tasks/
+- **Melting Pot** — Multi-agent RL substrates for coordination and competition (living benchmark suite). https://github.com/google-deepmind/meltingpot
+
+### Microsoft Research
+- **AutoGen / AG2** — Multi-agent conversation framework; design patterns, debugging tools, and no-code studio (2024–2025). https://www.microsoft.com/en-us/research/publication/autogen-enabling-next-gen-llm-applications-via-multi-agent-conversation-framework/
+- **AutoGen Studio** — Visual tooling for building and debugging multi-agent systems (2024). https://www.microsoft.com/en-us/research/publication/autogen-studio-a-no-code-developer-tool-for-building-and-debugging-multi-agent-systems/
+
+### Anthropic
+- **Claude Computer Use** — Secure GUI agent capability; studies on end-to-end desktop tasks (2024–2025). https://www.anthropic.com/news/3-5-models-and-computer-use
+- **Model Context Protocol (MCP)** — Open interoperability standard for agents with servers/clients ecosystem (2024–2025). https://www.anthropic.com/news/model-context-protocol
+
+### OpenAI
+- **Computer-Using Agent / Operator** — Web + desktop automation agents (2025). https://openai.com/index/computer-using-agent/ and https://openai.com/index/introducing-operator/
+- **Agents SDK (MCP)** — Official SDK with MCP support; tool-use and computer-use guides (2025). https://openai.github.io/openai-agents-python/mcp/ ; https://platform.openai.com/docs/guides/tools-computer-use
+
+### MIT / CSAIL and Academia
+- **AI agents help explain other AI systems** — Agentic interpretability tooling (2024). https://news.mit.edu/2024/ai-agents-help-explain-other-ai-systems-0103
+- **Evaluation and Benchmarking of LLM Agents: A Survey** — Comprehensive survey of eval dimensions (2025). https://arxiv.org/html/2507.21504v1
+- **Small Language Models are the Future of Agentic AI** — Resource-efficient agent stacks (2025). https://arxiv.org/pdf/2506.02153.pdf
+
+### Safety, Security, and Robustness
+- **LLM-to-LLM Prompt Injection** — Cross-agent prompt infection risks in multi-agent systems (2024). https://arxiv.org/abs/2410.07283
+- **Secret Collusion among AI Agents** — Deception via steganography in multi-agent settings (2024). https://www.semanticscholar.org/paper/5483b66f0e941be3e3382a97961773551d5ae563
+
+### Computer-Use Agent Studies
+- **The Dawn of GUI Agent** — Claude 3.5 Computer Use preliminary case study (2024). https://arxiv.org/abs/2411.10323
+- **Windows Agent Arena** — See above; multimodal OS agent evaluation (2024). https://arxiv.org/abs/2409.08264
+
+---
+
 ## 🤖 Core AI Agent Research
 
 ### Autonomous Agents
