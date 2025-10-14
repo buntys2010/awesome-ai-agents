@@ -1,0 +1,5 @@
+- Add links to new sections under Quick Navigation:
+  - [Computer Use Agents](catalog/computer-use-agents.md)
+  - [CLI & Terminal Agents](catalog/cli-agents.md)
+  - [Enterprise Platforms](catalog/enterprise-platforms.md)
+  - [Tool Integrations](catalog/tool-integrations.md)
