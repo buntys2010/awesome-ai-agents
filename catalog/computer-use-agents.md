@@ -2,6 +2,8 @@
 
 Agents that can control desktop apps and the web browser to complete tasks end-to-end. This is the fastest-evolving agent category (2024–2025).
 
+> Structured dataset: See [data/computer_use.csv](../data/computer_use.csv) for modalities, scope, sandboxing, and update dates.
+
 ## Why it matters
 - Enables real-world task completion beyond APIs (GUI automation, file ops, multi-app workflows)
 - Unlocks enterprise workflows where APIs are unavailable or insufficient
