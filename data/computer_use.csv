@@ -1,0 +1,6 @@
+name,github,stars,website,modality,scope,sandboxing,last_update,notes
+Nanobrowser,https://github.com/nanobrowser/nanobrowser,7100,https://nanobrowser.ai,Vision+DOM,Web,Browser profile isolation,2025-01-10,Web navigation and action with hybrid strategies
+UI-TARS,https://github.com/Sanster/UI-TARS,6500,https://github.com/Sanster/UI-TARS,Vision,Desktop,OS-level permission controls,2025-01-09,General GUI automation with multimodal control
+Skyvern,https://github.com/Skyvern-AI/skyvern,4000,https://www.skyvern.ai,Vision+HTML,Web,Headless browser + network isolation,2025-01-08,Autonomous web agent with robust extraction
+OpenManus,https://github.com/openmanus/openmanus,600,https://openmanus.io,Vision,Desktop,App-scoped permissions,2025-01-07,Open-source alternative to Operator/Manus-style control
+Cradle,https://github.com/andyz245/Cradle,1000,https://arxiv.org/abs/2403.09027,Vision+Planning,Desktop,Local sandbox recommended,2025-01-06,General computer control with planning
