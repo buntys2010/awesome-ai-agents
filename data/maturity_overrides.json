@@ -1,0 +1,34 @@
+{
+  "overrides": [
+    {
+      "name": "OpenAI Operator",
+      "maturity": "Experimental",
+      "notes": "Closed beta; computer-use agent announced 2025-01"
+    },
+    {
+      "name": "Claude Computer Use",
+      "maturity": "Beta",
+      "notes": "Gradual rollout via Claude; strong guardrails"
+    },
+    {
+      "name": "OpenAI Swarm",
+      "maturity": "Experimental",
+      "notes": "Lightweight orchestration for experimentation"
+    },
+    {
+      "name": "SmolAgents",
+      "maturity": "Experimental",
+      "notes": "Minimal code-style agents; rapid iteration"
+    },
+    {
+      "name": "Composio",
+      "maturity": "Production",
+      "notes": "API integrations platform with OAuth and auditing"
+    },
+    {
+      "name": "Google ADK",
+      "maturity": "Production",
+      "notes": "Enterprise-grade workflow agents via Vertex"
+    }
+  ]
+}
