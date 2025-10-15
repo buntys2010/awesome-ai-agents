@@ -1,0 +1,35 @@
+name: QA Audit
+
+on:
+  workflow_dispatch:
+  pull_request:
+  push:
+    paths:
+      - 'research/**'
+      - 'data/**'
+      - 'catalog/**'
+      - 'patterns/**'
+      - 'guides/**'
+      - 'scripts/qa_audit.py'
+
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+      - name: Run QA audit
+        run: |
+          python scripts/qa_audit.py || true
+      - name: Upload QA report
+        uses: actions/upload-artifact@v4
+        with:
+          name: qa-audit-report
+          path: QA_AUDIT_REPORT.md
