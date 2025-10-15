@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI Agent Framework Comparison</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 0; padding: 0; background: #0b0f17; color: #e6edf3; }
+    header { padding: 16px 24px; border-bottom: 1px solid #1f2633; background: #0f1624; position: sticky; top: 0; z-index: 10; }
+    h1 { font-size: 20px; margin: 0; }
+    .container { padding: 20px 24px; max-width: 1200px; margin: 0 auto; }
+    .filters { display: grid; grid-template-columns: repeat(6, minmax(140px, 1fr)); gap: 12px; margin-bottom: 16px; }
+    select, input { width: 100%; padding: 10px 12px; border-radius: 8px; border: 1px solid #273043; background: #0f1522; color: #e6edf3; }
+    .grid { display: grid; grid-template-columns: 1.5fr 1fr 0.8fr 1fr 1fr 1fr; gap: 8px; align-items: center; }
+    .row { padding: 10px 12px; border: 1px solid #1f2633; border-radius: 8px; background: #0f1624; display: contents; }
+    .grid > div { padding: 12px; border-bottom: 1px solid #1c2230; }
+    .header { color: #8b98b1; font-size: 12px; text-transform: uppercase; letter-spacing: .06em; background: transparent; border: none; }
+    .pill { display: inline-block; padding: 4px 8px; border-radius: 999px; font-size: 12px; background: #132035; color: #a9b5cc; margin-right: 6px; }
+    a { color: #8ab4ff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .badge { background: #132035; padding: 2px 8px; border-radius: 999px; font-size: 12px; margin-left: 6px; color: #a9b5cc; }
+    .section { margin-top: 24px; margin-bottom: 8px; color: #8b98b1; text-transform: uppercase; font-size: 12px; letter-spacing: .06em; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AI Agent Framework Comparison</h1>
+  </header>
+  <div class="container">
+    <div class="filters">
+      <input id="q" placeholder="Search name or description..." />
+      <select id="capability"><option value="">Capability</option><option>Autonomous</option><option>Multi-Agent</option><option>Tool-Using</option><option>RAG</option><option>Computer Use</option></select>
+      <select id="maturity"><option value="">Maturity</option><option>Production</option><option>Beta</option><option>Experimental</option></select>
+      <select id="language"><option value="">Language</option><option>Python</option><option>TypeScript</option><option>C#</option><option>Java</option></select>
+      <select id="deployment"><option value="">Deployment</option><option>Local</option><option>Cloud</option><option>Hybrid</option></select>
+      <select id="mcp"><option value="">MCP</option><option>Yes</option><option>No</option></select>
+    </div>
+
+    <div class="grid header">
+      <div>Name</div>
+      <div>Stars</div>
+      <div>Maturity</div>
+      <div>Language</div>
+      <div>Deployment</div>
+      <div>Tags</div>
+    </div>
+    <div id="rows"></div>
+
+    <div class="section">Computer Use Agents</div>
+    <div class="grid header">
+      <div>Name</div>
+      <div>Stars</div>
+      <div>Modality</div>
+      <div>Scope</div>
+      <div>Sandboxing</div>
+      <div>Last Update</div>
+    </div>
+    <div id="rows-cu"></div>
+  </div>
+  <script>
+    const state = { items: [], cu: [], filters: {} };
+
+    const match = (val, q) => (val||'').toLowerCase().includes((q||'').toLowerCase());
+    function render() {
+      const q = document.getElementById('q').value.trim();
+      const cap = document.getElementById('capability').value;
+      const mat = document.getElementById('maturity').value;
+      const lang = document.getElementById('language').value;
+      const dep = document.getElementById('deployment').value;
+      const mcp = document.getElementById('mcp').value;
+
+      const rows = document.getElementById('rows');
+      rows.innerHTML = '';
+
+      state.items
+        .filter(x => !q || match(x.name, q) || match(x.description, q))
+        .filter(x => !cap || (x.category||'').toLowerCase().includes(cap.toLowerCase()))
+        .filter(x => !mat || (x.maturity||'').toLowerCase() === mat.toLowerCase())
+        .filter(x => !lang || (x.language||'').toLowerCase().includes(lang.toLowerCase()))
+        .filter(x => !dep || (x.deployment||'').toLowerCase().includes(dep.toLowerCase()))
+        .filter(x => !mcp || ((x.tags||'').toLowerCase().includes('mcp')) === (mcp==='Yes'))
+        .sort((a,b) => (b.stars_int||0) - (a.stars_int||0))
+        .forEach(x => {
+          const row = document.createElement('div');
+          row.className = 'row grid';
+          row.innerHTML = `
+            <div><a href="${x.github}" target="_blank">${x.name}</a> ${x.website?`<a class="badge" href="${x.website}" target="_blank">site</a>`:''}</div>
+            <div>${x.stars||''}</div>
+            <div><span class="pill">${x.maturity||''}</span></div>
+            <div>${x.language||''}</div>
+            <div>${x.deployment||''}</div>
+            <div>${x.tags||''}</div>
+          `;
+          rows.appendChild(row);
+        });
+
+      const rowsCU = document.getElementById('rows-cu');
+      rowsCU.innerHTML = '';
+      state.cu
+        .filter(x => !q || match(x.name, q) || match(x.notes, q))
+        .sort((a,b) => (b.stars_int||0) - (a.stars_int||0))
+        .forEach(x => {
+          const row = document.createElement('div');
+          row.className = 'row grid';
+          row.innerHTML = `
+            <div><a href="${x.github}" target="_blank">${x.name}</a> ${x.website?`<a class="badge" href="${x.website}" target="_blank">site</a>`:''}</div>
+            <div>${x.stars||''}</div>
+            <div>${x.modality||''}</div>
+            <div>${x.scope||''}</div>
+            <div>${x.sandboxing||''}</div>
+            <div>${x.last_update||''}</div>
+          `;
+          rowsCU.appendChild(row);
+        });
+    }
+
+    async function load() {
+      try {
+        const res = await fetch('catalog.json');
+        const data = await res.json();
+        state.items = data.frameworks || [];
+        state.cu = data.computer_use || [];
+        render();
+      } catch (e) {
+        console.error('Failed to load catalog', e);
+      }
+    }
+
+    ['q','capability','maturity','language','deployment','mcp'].forEach(id => {
+      document.addEventListener('input', (ev) => { if (ev.target.id === id) render(); });
+      document.addEventListener('change', (ev) => { if (ev.target.id === id) render(); });
+    });
+
+    load();
+  </script>
+</body>
+</html>
