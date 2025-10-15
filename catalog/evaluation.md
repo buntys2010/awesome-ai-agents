@@ -2,6 +2,8 @@
 
 This section covers comprehensive evaluation frameworks, benchmarks, and assessment tools for AI agents and multi-agent systems.
 
+_Last reviewed: October 2025_
+
 ## 🎯 Why Agent Evaluation Matters
 
 Evaluating AI agents is critical for:
@@ -305,4 +307,3 @@ Evaluate agents across multiple dimensions:
 
 **Key Takeaway**: Comprehensive agent evaluation requires multiple benchmarks, diverse metrics, and continuous monitoring. The field is rapidly evolving, with new benchmarks emerging to address specific agent capabilities and safety concerns.
 
-*Last updated: January 2025 | Benchmarks and metrics reflect current state-of-the-art*
