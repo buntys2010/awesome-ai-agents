@@ -204,10 +204,12 @@ A curated collection of **60+ frameworks**, **80+ research papers**, and **produ
 
 ## 📈 **Repository Stats**
 
+> 🔄 *Data refreshed weekly via automation*
+
 <table>
 <tr>
 <td align="center"><strong>60+</strong><br/>Frameworks</td>
-<td align="center"><strong>955K+</strong><br/>Total Stars</td>
+<td align="center"><strong>1M+</strong><br/>Total Stars</td>
 <td align="center"><strong>80+</strong><br/>Research Papers</td>
 <td align="center"><strong>5</strong><br/>Major Categories</td>
 <td align="center"><strong>8+</strong><br/>Evaluation Benchmarks</td>
