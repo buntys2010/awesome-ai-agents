@@ -81,7 +81,7 @@ A curated collection of **60+ frameworks**, **80+ research papers**, and **produ
 
 ## 🔥 **What's New** — *Latest Updates*
 
-**January 2025 Updates:**
+**October 2025 Updates:**
 - ✨ **Computer Use Agents** — Claude Computer Use, OpenAI Operator, open-source frameworks
 - 💻 **CLI & Terminal Agents** — Developer workflow automation (Qodo Command, Goose CLI)
 - 🏢 **Enterprise Platforms** — Google ADK, Vellum AI, production deployment guides
