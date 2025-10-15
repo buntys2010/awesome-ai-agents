@@ -2,6 +2,10 @@
 
 Comprehensive analysis of coding and software engineering agents: strengths, limitations, setup guides, and best-fit scenarios.
 
+_Last reviewed: October 2025_
+
+> **Note**: Performance metrics and star counts are approximate, refreshed weekly via automation.
+
 ## 📊 Quick Statistics
 - **4 major frameworks** analyzed in detail
 - **Production-ready** deployment guides
@@ -243,11 +247,11 @@ services:
 
 ---
 
-## 📊 Performance Comparison
+## 📈 Performance Comparison
 
 ### Task Completion Rates (Based on SWE-bench)
 | Framework | Simple Tasks | Complex Tasks | Multi-File Tasks | Average |
-|-----------|--------------|---------------|------------------|---------|
+|-----------|--------------|---------------|------------------|----------|
 | OpenDevin | 85% | 65% | 70% | 73% |
 | Open Interpreter | 90% | 45% | 40% | 58% |
 | GPT Engineer | 80% | 55% | 60% | 65% |
@@ -255,7 +259,7 @@ services:
 
 ### Cost Analysis (Approximate)
 | Framework | Setup Cost | Per-Task Cost | Monthly Usage | Total TCO |
-|-----------|------------|---------------|---------------|-----------|
+|-----------|------------|---------------|---------------|----------|
 | OpenDevin | High | Medium | $50-200 | High |
 | Open Interpreter | Low | Low | $20-80 | Low |
 | GPT Engineer | Low | Medium | $30-120 | Medium |
@@ -328,4 +332,3 @@ services:
 
 ---
 
-*Last updated: January 2025 | Comparisons based on latest framework versions and community feedback*
