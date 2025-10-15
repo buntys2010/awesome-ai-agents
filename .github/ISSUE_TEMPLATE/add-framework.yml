@@ -1,0 +1,125 @@
+name: 🆕 Add New Framework
+description: Suggest a new AI agent framework for inclusion
+title: "[Framework] Add [Framework Name]"
+labels: ["enhancement", "new-framework"]
+assignees:
+  - buntys2010
+body:
+  - type: input
+    id: framework_name
+    attributes:
+      label: Framework Name
+      description: What is the name of the framework?
+      placeholder: e.g., "CrewAI", "AutoGen", "LangGraph"
+    validations:
+      required: true
+  
+  - type: input
+    id: github_url
+    attributes:
+      label: GitHub Repository URL
+      description: Link to the main GitHub repository
+      placeholder: https://github.com/username/repo
+    validations:
+      required: true
+  
+  - type: input
+    id: stars
+    attributes:
+      label: GitHub Stars
+      description: Approximate number of stars (helps with quality assessment)
+      placeholder: e.g., "15000", "2.5K", "45K"
+    validations:
+      required: true
+  
+  - type: dropdown
+    id: category
+    attributes:
+      label: Primary Category
+      description: What type of agent framework is this?
+      options:
+        - Autonomous Agent
+        - Multi-Agent
+        - Tool-Using Agent
+        - RAG/Data Agent
+        - Coding Agent
+        - Computer Use Agent
+        - CLI/Terminal Agent
+        - Research Agent
+        - Enterprise Platform
+        - Evaluation/Monitoring
+        - Other
+    validations:
+      required: true
+  
+  - type: dropdown
+    id: maturity
+    attributes:
+      label: Maturity Level
+      description: How mature/stable is this framework?
+      options:
+        - Production (stable, widely used)
+        - Beta (functional, active development)
+        - Experimental (early stage, proof-of-concept)
+        - Research (academic/prototype)
+    validations:
+      required: true
+  
+  - type: input
+    id: language
+    attributes:
+      label: Primary Programming Language
+      description: Main language(s) for this framework
+      placeholder: e.g., "Python", "TypeScript", "Python, JavaScript"
+    validations:
+      required: true
+  
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Brief description of what this framework does (2-3 sentences)
+      placeholder: Describe the framework's main purpose, key features, and what makes it unique...
+    validations:
+      required: true
+  
+  - type: checkboxes
+    id: quality_criteria
+    attributes:
+      label: Quality Criteria
+      description: Please confirm this framework meets our standards
+      options:
+        - label: Framework has 500+ stars OR is backed by established organization
+          required: true
+        - label: Active maintenance (commits within last 12 months)
+          required: true
+        - label: Clear documentation and examples available
+          required: true
+        - label: Unique value proposition (not a fork/duplicate of existing framework)
+          required: true
+        - label: Production-ready OR significant community adoption
+          required: true
+  
+  - type: textarea
+    id: additional_info
+    attributes:
+      label: Additional Information
+      description: Any other relevant details, links, or context
+      placeholder: |
+        - Official website:
+        - Documentation:
+        - Notable users/case studies:
+        - Special features:
+        - Why should this be included:
+  
+  - type: checkboxes
+    id: contribution_agreement
+    attributes:
+      label: Contribution Agreement
+      options:
+        - label: I have read the Contributing Guidelines
+          required: true
+        - label: I understand this suggestion will be reviewed against quality standards
+          required: true
+        - label: I am not affiliated with this framework (or have disclosed my affiliation above)
+          required: false
