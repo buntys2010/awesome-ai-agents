@@ -466,6 +466,14 @@ We welcome high-quality contributions! 🙏
 
 ---
 
+## 📡 Stay Connected
+
+- **Follow Bunty**: https://www.linkedin.com/in/bunty-shah/
+- **Watch Repository**: https://github.com/buntys2010/awesome-ai-agents/subscription
+- **Start a Discussion**: https://github.com/buntys2010/awesome-ai-agents/discussions
+
+---
+
 ## 📜 **License**
 
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
@@ -489,7 +497,5 @@ Special thanks to the AI community:
 **🎆 Curated with ❤️ by the AI research community**
 
 *⭐ Star this repo to stay updated with the latest AI agent frameworks and research!*
-
-**[Watch Repository](https://github.com/buntys2010/awesome-ai-agents/subscription)** • **[Join Discussions](https://github.com/buntys2010/awesome-ai-agents/discussions)** • **[Follow Updates](https://twitter.com/buntys2010)**
 
 </div>
