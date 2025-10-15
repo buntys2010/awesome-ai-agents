@@ -2,6 +2,8 @@
 
 This section contains curated research papers, academic surveys, and theoretical foundations for AI agents and multi-agent systems.
 
+_Last reviewed: October 2025_
+
 ## 📊 Quick Statistics
 - **80+ Research Papers** from top venues (2023-2025)
 - **15+ Survey Papers** providing comprehensive overviews
@@ -186,4 +188,3 @@ We welcome contributions of relevant research papers! Please follow these guidel
 
 ---
 
-*Last updated: January 2025 | 📚 Papers curated from arXiv, IEEE, ACM, and other top venues*
