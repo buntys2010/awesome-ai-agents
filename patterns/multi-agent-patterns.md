@@ -2,6 +2,10 @@
 
 Comprehensive guide to coordination patterns, communication protocols, and architectural approaches for multi-agent systems.
 
+_Last reviewed: October 2025_
+
+> **Note**: Performance metrics and framework versions are approximate, refreshed weekly via automation.
+
 ## 📊 Pattern Overview
 
 | Pattern | Framework Example | Communication | Coordination | Use Cases |
@@ -344,6 +348,7 @@ sequenceDiagram
 **🚀 Implementation Example**
 ```python
 import asyncio
+import time
 from dataclasses import dataclass
 from typing import Callable, Dict, List
 
@@ -693,4 +698,3 @@ class AgentCache:
 
 ---
 
-*Last updated: January 2025 | Patterns reflect current best practices across major frameworks*
