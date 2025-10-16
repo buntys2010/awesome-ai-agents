@@ -2,7 +2,7 @@
 
 > The definitive resource for AI agent frameworks, research, and production deployment
 
-A curated collection of **60+ frameworks**, **80+ research papers**, and **production-ready guides** for building autonomous AI systems.
+A curated collection of **65+ frameworks**, **80+ research papers**, and **production-ready guides** for building autonomous AI systems.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 ![GitHub stars](https://img.shields.io/github/stars/buntys2010/awesome-ai-agents?style=social)
@@ -20,7 +20,7 @@ A curated collection of **60+ frameworks**, **80+ research papers**, and **produ
 ### 🎯 **I want to build...**
 - **Multi-agent team** → [CrewAI](https://github.com/crewAIInc/crewAI) or [AutoGen](https://github.com/microsoft/autogen)
 - **Coding assistant** → [Open Interpreter](https://github.com/KillianLucas/open-interpreter) or [OpenDevin](https://github.com/All-Hands-AI/OpenHands)
-- **Research agent** → [GPT Researcher](https://github.com/assafelovic/gpt-researcher)
+- **Data analysis agent** → [BambooAI](https://github.com/pgalko/BambooAI) or [GPT Researcher](https://github.com/assafelovic/gpt-researcher)
 - **Desktop automation** → [Claude Computer Use](catalog/computer-use-agents.md)
 - **Enterprise solution** → [LangChain](https://github.com/langchain-ai/langchain) + [Enterprise Guide](guides/enterprise-deployment.md)
 
@@ -85,6 +85,7 @@ A curated collection of **60+ frameworks**, **80+ research papers**, and **produ
 - ✨ **Computer Use Agents** — Claude Computer Use, OpenAI Operator, open-source frameworks
 - 💻 **CLI & Terminal Agents** — Developer workflow automation (Qodo Command, Goose CLI)
 - 🏢 **Enterprise Platforms** — Google ADK, Vellum AI, production deployment guides
+- 🔧 **Specialized Tools** — Adala (data labeling), BambooAI (data exploration), Bloop (code search)
 - 🧪 **Interactive Comparison** — Filter frameworks by capability, maturity, language
 - 📈 **Automated Maintenance** — Weekly star refresh, link checking, what's new curation
 
@@ -138,6 +139,7 @@ A curated collection of **60+ frameworks**, **80+ research papers**, and **produ
 | [AutoGen](https://github.com/microsoft/autogen) | Conversation | 48K |
 | [MetaGPT](https://github.com/geekan/MetaGPT) | Software company | 58K |
 | [ChatDev](https://github.com/OpenBMB/ChatDev) | Development team | 27K |
+| [FastAgency](https://github.com/ag2ai/fastagency) | AG2 production | 1.8K |
 | [OpenAI Swarm](https://github.com/openai/swarm) | Lightweight | 15K |
 
 **🚀 Quick Start**: [Multi-Agent Patterns Guide](patterns/multi-agent-patterns.md)
@@ -149,6 +151,7 @@ A curated collection of **60+ frameworks**, **80+ research papers**, and **produ
 | [Open Interpreter](https://github.com/KillianLucas/open-interpreter) | Local execution | 60K |
 | [GPT Engineer](https://github.com/gpt-engineer-org/gpt-engineer) | Code generation | 55K |
 | [Devika](https://github.com/stitionai/devika) | Open source Devin | 19K |
+| [Bloop](https://github.com/BloopAI/bloop) | Code search | 10K |
 
 **🚀 Quick Start**: [Coding Agents Deep Dive](catalog/coding-agents-deep-dive.md)
 
@@ -173,6 +176,8 @@ A curated collection of **60+ frameworks**, **80+ research papers**, and **produ
 | [LlamaIndex](https://github.com/run-llama/llama_index) | Data applications | 43K |
 | [LangGraph](https://github.com/langchain-ai/langgraph) | Stateful workflows | 8K |
 | [DB-GPT](https://github.com/eosphoros-ai/DB-GPT) | Database queries | 17K |
+| [BambooAI](https://github.com/pgalko/BambooAI) | Data exploration | 2.3K |
+| [Adala](https://github.com/HumanSignal/Adala) | Data labeling | 2K |
 
 **🚀 Quick Start**: [Getting Started Guide](guides/getting-started.md)
 
@@ -183,6 +188,7 @@ A curated collection of **60+ frameworks**, **80+ research papers**, and **produ
 | Google ADK | Workflow agents | Production |
 | Vellum AI | Governance platform | Production |
 | [E2B Sandbox](https://github.com/e2b-dev/e2b) | Secure runtime | Production |
+| [Eidolon](https://github.com/eidolon-ai/eidolon) | Agent server | Production |
 
 **🚀 Quick Start**: [Enterprise Deployment](guides/enterprise-deployment.md)
 
@@ -208,10 +214,10 @@ A curated collection of **60+ frameworks**, **80+ research papers**, and **produ
 
 <table>
 <tr>
-<td align="center"><strong>60+</strong><br/>Frameworks</td>
+<td align="center"><strong>65+</strong><br/>Frameworks</td>
 <td align="center"><strong>1M+</strong><br/>Total Stars</td>
 <td align="center"><strong>80+</strong><br/>Research Papers</td>
-<td align="center"><strong>5</strong><br/>Major Categories</td>
+<td align="center"><strong>6</strong><br/>Major Categories</td>
 <td align="center"><strong>8+</strong><br/>Evaluation Benchmarks</td>
 </tr>
 </table>
@@ -236,8 +242,8 @@ python scripts/recommend.py --use_case coding --experience intermediate --deploy
 | **Code generation** | Open Interpreter | OpenDevin | GitHub Copilot |
 | **Desktop automation** | Claude Computer Use | OpenAI Operator | UI-TARS |
 | **RAG applications** | LangChain | LlamaIndex | Azure OpenAI |
-| **Quick prototype** | AutoGPT | OpenAI Swarm | Cursor AI |
-| **Research & analysis** | GPT Researcher | BabyAGI | Custom solution |
+| **Data exploration** | BambooAI | GPT Researcher | Custom solution |
+| **Code search** | Bloop | GitHub Copilot | Sourcegraph Cody |
 
 ---
 
@@ -273,7 +279,7 @@ python scripts/recommend.py --use_case coding --experience intermediate --deploy
 - 💱 **[CLI Agents](catalog/cli-agents.md)**  
   *Terminal automation*
 - 🔧 **[Tool Integrations](catalog/tool-integrations.md)**  
-  *API connectors*
+  *API connectors + specialized tools*
 - ⚙️ **[Scripts & Automation](scripts/)**  
   *Maintenance utilities*
 
@@ -294,6 +300,7 @@ python scripts/recommend.py --use_case coding --experience intermediate --deploy
 | [Microsoft AutoGen](https://github.com/microsoft/autogen) | 48K | Conversation framework | Production |
 | [MetaGPT](https://github.com/geekan/MetaGPT) | 58K | Software company simulation | Beta |
 | [ChatDev](https://github.com/OpenBMB/ChatDev) | 27K | Development team | Beta |
+| [FastAgency](https://github.com/ag2ai/fastagency) | 1.8K | AG2 production deployment | Beta |
 | [OpenAI Swarm](https://github.com/openai/swarm) | 15K | Lightweight orchestration | Experimental |
 | [CAMEL](https://github.com/camel-ai/camel) | 14K | Communicative agents | Research |
 
@@ -308,6 +315,7 @@ python scripts/recommend.py --use_case coding --experience intermediate --deploy
 | [Open Interpreter](https://github.com/KillianLucas/open-interpreter) | 60K | Local code execution | Scripting & automation |
 | [GPT Engineer](https://github.com/gpt-engineer-org/gpt-engineer) | 55K | Code scaffolding | Greenfield projects |
 | [Devika](https://github.com/stitionai/devika) | 19K | Open source Devin | Custom workflows |
+| [Bloop](https://github.com/BloopAI/bloop) | 10K | AI code search | Rust/TypeScript codebases |
 
 **🚀 Deep Dive**: [Coding Agents Detailed Analysis](catalog/coding-agents-deep-dive.md)
 
@@ -337,6 +345,8 @@ python scripts/recommend.py --use_case coding --experience intermediate --deploy
 | [LlamaIndex](https://github.com/run-llama/llama_index) | 43K | Data applications | RAG-focused |
 | [LangGraph](https://github.com/langchain-ai/langgraph) | 8K | Stateful workflows | LangChain ecosystem |
 | [DB-GPT](https://github.com/eosphoros-ai/DB-GPT) | 17K | Database queries | Text2SQL |
+| [BambooAI](https://github.com/pgalko/BambooAI) | 2.3K | Data exploration | Natural language |
+| [Adala](https://github.com/HumanSignal/Adala) | 2K | Data labeling | Autonomous |
 
 </details>
 
@@ -349,6 +359,7 @@ python scripts/recommend.py --use_case coding --experience intermediate --deploy
 | **Google ADK** | Commercial | Workflow agents | ✅ |
 | **Vellum AI** | Commercial | Governance platform | ✅ |
 | [E2B Sandbox](https://github.com/e2b-dev/e2b) | 9K | Secure runtime | ✅ |
+| [Eidolon](https://github.com/eidolon-ai/eidolon) | 870 | Agent server | ✅ |
 
 **🚀 Deep Dive**: [Enterprise Deployment Playbook](guides/enterprise-deployment.md)
 
@@ -373,10 +384,16 @@ python scripts/recommend.py --use_case coding --experience intermediate --deploy
 
 | Name | Stars | Specialty | APIs |
 |------|-------|-----------|------|
+| [GPT Researcher](https://github.com/assafelovic/gpt-researcher) | 22K | Research & reports | Web |
+| [Bloop](https://github.com/BloopAI/bloop) | 10K | Code search | Rust/TypeScript |
 | [Composio](https://github.com/ComposioHQ/composio) | 3K | API integrations | 90+ |
+| [BambooAI](https://github.com/pgalko/BambooAI) | 2.3K | Data exploration | Natural language |
+| [Adala](https://github.com/HumanSignal/Adala) | 2K | Data labeling | Autonomous |
+| [FastAgency](https://github.com/ag2ai/fastagency) | 1.8K | Production deployment | AG2 workflows |
+| [Eidolon](https://github.com/eidolon-ai/eidolon) | 870 | Agent server | Modular SDK |
 | **Fetch.ai** | Web3 | Agent marketplace | Blockchain |
 | **Bland AI** | Commercial | Phone/call agents | Voice |
-| [GPT Researcher](https://github.com/assafelovic/gpt-researcher) | 22K | Research & reports | Web |
+| [Web3GPT](https://github.com/Markeljan/web3gpt) | 95 | Smart contracts | Web3 |
 
 </details>
 
