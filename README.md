@@ -84,6 +84,7 @@ A curated collection of **65+ frameworks**, **80+ research papers**, and **produ
 ## 🔥 **What's New** — *Latest Updates*
 
 **October 2025 Updates:**
+- ✨ **Use Cases** — New catalog by industry and framework patterns (rewritten summaries with Code/Notebook links)
 - ✨ **Computer Use Agents** — Claude Computer Use, OpenAI Operator, open-source frameworks
 - 💻 **CLI & Terminal Agents** — Developer workflow automation (Qodo Command, Goose CLI)
 - 🏢 **Enterprise Platforms** — Google ADK, Vellum AI, production deployment guides
@@ -291,6 +292,3 @@ python scripts/recommend.py --use_case coding --experience intermediate --deploy
 
 ---
 
-## 🔄 **All Categories**
-
-... (unchanged sections below retained for brevity)
