@@ -128,14 +128,14 @@ _Last updated: Oct 16, 2025_
 
 Deep-dive into specific framework implementations:
 
-- **[CrewAI Use Cases](catalog/use-cases-crewai.md)** — 22 role-based team examples
-- **[AutoGen Use Cases](catalog/use-cases-autogen.md)** — 40+ multi-agent collaboration patterns 
-- **[LangGraph Use Cases](catalog/use-cases-langgraph.md)** — 20 workflow orchestration examples
-- **[Agno Use Cases](catalog/use-cases-agno.md)** — 18 intelligent agent implementations
+- **[CrewAI Use Cases](use-cases-crewai.md)** — 22+ role-based team examples
+- **[AutoGen Use Cases](use-cases-autogen.md)** — 40+ multi-agent collaboration patterns 
+- **[LangGraph Use Cases](use-cases-langgraph.md)** — 20+ workflow orchestration examples
+- **[Agno Use Cases](use-cases-agno.md)** — 18+ intelligent agent implementations
 
 ---
 
 ### 🔧 Notes
 - All descriptions are rewritten; original ideas credited via external links.
-- Badges updated weekly via automation.
+- Badges and stars updated weekly via automation.
 - Additions welcome; submit PRs with more notebooks and code links.
