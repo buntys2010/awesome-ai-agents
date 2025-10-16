@@ -84,12 +84,56 @@ A curated collection of **65+ frameworks**, **80+ research papers**, and **produ
 ## 🔥 **What's New** — *Latest Updates*
 
 **October 2025 Updates:**
+- ✨ **Use Cases** — Now organized by use case first with framework mapping, plus external Code/Guide links
 - ✨ **Computer Use Agents** — Claude Computer Use, OpenAI Operator, open-source frameworks
 - 💻 **CLI & Terminal Agents** — Developer workflow automation (Qodo Command, Goose CLI)
 - 🏢 **Enterprise Platforms** — Google ADK, Vellum AI, production deployment guides
 - 🔧 **Specialized Tools** — Adala (data labeling), BambooAI (data exploration), Bloop (code search)
 - 🧪 **Interactive Comparison** — Filter frameworks by capability, maturity, language
 - 📈 **Automated Maintenance** — Weekly star refresh, link checking, what's new curation
+
+---
+
+## 🌟 **Use Case Spotlight**
+
+<table>
+<tr>
+<td>
+
+### 🏥 Medical Report Analyzer
+Clinical report analysis with AI insights  
+Frameworks: 🧠 Agno • 🤖 AutoGen  
+<a href="https://github.com/LibertFan/AI_Hospital" target="_blank" rel="noopener noreferrer">Code ↗</a> · <a href="https://aws-samples.github.io/amazon-bedrock-agents-healthcare-lifesciences/" target="_blank" rel="noopener noreferrer">Guide ↗</a>
+
+</td>
+<td>
+
+### 💰 Algorithmic Trading Bot
+Automated trading with real-time analysis  
+Frameworks: 🏢 CrewAI • 🤖 AutoGen  
+<a href="https://github.com/AI4Finance-Foundation/FinRobot" target="_blank" rel="noopener noreferrer">Code ↗</a> · <a href="https://www.youtube.com/watch?v=izW4abxIWe8" target="_blank" rel="noopener noreferrer">Guide ↗</a>
+
+</td>
+<td>
+
+### 👨‍💼 Recruitment Pipeline Automation
+End-to-end hiring workflow automation  
+Frameworks: 🏢 CrewAI  
+<a href="https://www.make.com/en/how-to-guides/ai-recruiting-agent" target="_blank" rel="noopener noreferrer">Code/Guide ↗</a> · <a href="https://www.uipath.com/solutions/department/hr-automation" target="_blank" rel="noopener noreferrer">Guide ↗</a>
+
+</td>
+<td>
+
+### 🔎 Multi-Agent Research System
+Collaborative research with synthesis  
+Frameworks: 🧠 Agno • 🤖 AutoGen  
+<a href="https://github.com/microsoft/ai-agents-for-beginners" target="_blank" rel="noopener noreferrer">Code ↗</a> · <a href="https://github.com/NirDiamant/GenAI_Agents" target="_blank" rel="noopener noreferrer">Guide ↗</a>
+
+</td>
+</tr>
+</table>
+
+**→ [View All Use Cases](catalog/use-cases.md)** — 40+ industry applications with framework mapping
 
 ---
 
@@ -291,6 +335,123 @@ python scripts/recommend.py --use_case coding --experience intermediate --deploy
 
 ---
 
-## 🔄 **All Categories**
+## 📚 **Research & Academic Work**
 
-... (unchanged sections below retained for brevity)
+### 🏆 **Industry Research** (2024-2025)
+- **Google/DeepMind**: Chain-of-Agents, Windows Agent Arena, Melting Pot
+- **Microsoft**: AutoGen/AG2 framework, AutoGen Studio
+- **Anthropic**: Claude Computer Use, Model Context Protocol (MCP)
+- **OpenAI**: Computer-Using Agent/Operator, Agents SDK
+- **MIT/CSAIL**: Automated Interpretability, AI safety frameworks
+
+### 📝 **Academic Papers** (80+ papers)
+➤ **[Browse Research Papers](research/papers.md)** — Foundational surveys, multi-agent collaboration, evaluation frameworks
+
+---
+
+## 📊 **Evaluation & Benchmarking**
+
+<table>
+<tr>
+<td width="33%">
+
+### 🏁 **Major Benchmarks**
+- **[AgentBench](evaluation/agentbench.md)** — 8 environments
+- **[WebArena](evaluation/webarena.md)** — Web navigation
+- **[SWE-bench](evaluation/swebench.md)** — Code solving
+- **[τ-Bench](catalog/evaluation.md)** — Real-world reliability
+
+</td>
+<td width="33%">
+
+### 🛠️ **Tools & Platforms**
+- **[AgentOps](https://github.com/AgentOps-AI/agentops)** — Monitoring
+- **[E2B](https://github.com/e2b-dev/e2b)** — Sandboxing
+- **[LangSmith](https://smith.langchain.com/)** — LangChain eval
+
+</td>
+<td width="33%">
+
+### 📊 **Performance Data**
+- **GPT-4 + CoT**: 50% (AgentBench)
+- **Devin**: 13.86% (SWE-bench)
+- **WebArena**: 35.8% (GPT-4)
+
+</td>
+</tr>
+</table>
+
+**🚀 Complete Guide**: [Agent Evaluation & Benchmarking](catalog/evaluation.md)
+
+---
+
+## 🤝 **Contributing**
+
+We welcome high-quality contributions! 🙏
+
+### 🎯 **How to Contribute**
+- **🆕 New Framework**: Use our [issue template](.github/ISSUE_TEMPLATE/add-framework.yml)
+- **📝 Documentation**: Submit PRs with our [PR template](.github/PULL_REQUEST_TEMPLATE.md)
+- **🔬 Research Papers**: Add to [research/papers.md](research/papers.md)
+- **📊 Case Studies**: Share real-world implementations
+- **🧩 Use Cases**: Propose industry applications via [Use Cases](catalog/use-cases.md)
+
+### 🛡️ **Quality Standards**
+- **500+ GitHub stars** OR backing from established organization
+- **Active maintenance** (commits within 12 months)
+- **Clear documentation** and examples
+- **Unique value proposition** (not a duplicate/fork)
+
+**🚀 Full Guide**: [Contributing Guidelines](CONTRIBUTING.md)
+
+---
+
+## 🎥 **Success Stories**
+
+### 🏢 **Enterprise Adoptions**
+- **Block (Square)** — MCP for financial services
+- **Apollo GraphQL** — API development assistance  
+- **Replit** — Agent-powered coding
+- **Zed Editor** — MCP integration
+
+### 🏆 **Community Highlights**
+- **GPT Researcher**: #1 by Carnegie Mellon's DeepResearchGym
+- **CrewAI**: Fastest growing (0→35K stars in 18 months)
+- **AutoGPT**: Most forked autonomous agent (177K stars)
+- **LangChain**: Largest ecosystem (113K stars)
+
+---
+
+## 📡 Stay Connected
+
+- **Follow Bunty**: https://www.linkedin.com/in/bunty-shah/
+- **Watch Repository**: https://github.com/buntys2010/awesome-ai-agents/subscription
+- **Start a Discussion**: https://github.com/buntys2010/awesome-ai-agents/discussions
+
+---
+
+## 📜 **License**
+
+[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+**Creative Commons Zero v1.0 Universal** — Use freely, no attribution required
+
+---
+
+## 🙏 **Acknowledgments**
+
+Special thanks to the AI community:
+- **Framework maintainers** pushing the boundaries of AI agents
+- **Research institutions** (MIT, Stanford, CMU) advancing the science
+- **Industry labs** (Google, Microsoft, OpenAI, Anthropic) driving innovation
+- **Open source contributors** making this knowledge accessible
+
+---
+
+<div align="center">
+
+**🎆 Curated with ❤️ by the AI research community**
+
+*⭐ Star this repo to stay updated with the latest AI agent frameworks and research!*
+
+</div>
