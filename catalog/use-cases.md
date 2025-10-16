@@ -2,23 +2,22 @@
 
 _Last reviewed: October 2025_
 
-A curated catalog of practical AI agent use cases organized by industry and framework, with patterns you can adapt in production.
+A curated catalog of practical AI agent use cases organized by industry and framework, with patterns you can adapt in production. All external resources open in a new tab.
 
 ## 🏭 Industry Use Cases
 
 | Use Case | Sector | Summary | Code / Notebook |
 |---------|--------|---------|-----------------|
-| Medical report insights | Healthcare | Parse and summarize clinical or lab reports with compliance notes | Notebook ↗ |
-| Insurance claims assistant | Healthcare/Insurance | Automate initial triage, document checks, and status updates | Code ↗ |
-| Algorithmic trade executor | Finance | Strategy backtesting + live execution with risk guardrails | Notebook ↗ |
-| Equity research digester | Finance | Aggregate filings, news, and consensus into a brief | Code ↗ |
-| Resume-to-role matcher | HR | Profile parsing + role matching with scoring and reasoning | Notebook ↗ |
-| Candidate outreach pipeline | HR | Generate tailored messages and schedule interviews | Code ↗ |
-| Personal study tutor | Education | Plan lessons, quizzes, and adaptive study schedules | Notebook ↗ |
-| Product recommender | Retail | Suggest items from catalog based on preferences/context | Code ↗ |
-| Red team probe | Cybersecurity | Automated adversarial probing of known endpoints | Code ↗ |
-| IOC alert triage | Cybersecurity | Prioritize and summarize threat intel and alerts | Notebook ↗ |
-| Smart web navigator | Web Automation | Browse, extract, and structure information from sites | Notebook ↗ |
+| Clinical report summarizer | Healthcare | Parse and condense clinical or lab reports with privacy safeguards | <a href="https://github.com/LibertFan/AI_Hospital" target="_blank" rel="noopener noreferrer">AI Hospital ↗</a> |
+| Claims intake automation | Healthcare/Insurance | Triage claims, validate docs, notify stakeholders | <a href="https://aws-samples.github.io/amazon-bedrock-agents-healthcare-lifesciences/guides/" target="_blank" rel="noopener noreferrer">AWS Bedrock Agents ↗</a> |
+| Quant strategy runner | Finance | Backtest and execute strategies with risk gates | <a href="https://github.com/AI4Finance-Foundation/FinRobot" target="_blank" rel="noopener noreferrer">FinRobot ↗</a> |
+| Market intel researcher | Finance | Aggregate filings, news, and signals into briefs | <a href="https://www.youtube.com/watch?v=izW4abxIWe8" target="_blank" rel="noopener noreferrer">Trading workflow (video) ↗</a> |
+| Resume-to-role matcher | HR | Parse profiles and rank against job criteria | <a href="https://www.make.com/en/how-to-guides/ai-recruiting-agent" target="_blank" rel="noopener noreferrer">Make guide ↗</a> |
+| Auto-outreach and scheduling | HR | Personalized outreach + interview scheduling | <a href="https://www.uipath.com/solutions/department/hr-automation" target="_blank" rel="noopener noreferrer">UiPath HR agentic ↗</a> |
+| Study companion | Education | Tutoring, quizzes, adaptive practice | <a href="https://github.com/microsoft/ai-agents-for-beginners" target="_blank" rel="noopener noreferrer">Agents for Beginners ↗</a> |
+| Web navigator & extractor | Web Automation | Browse, scrape, and structure page data | <a href="https://blog.apify.com/ai-web-scraping-python/" target="_blank" rel="noopener noreferrer">Apify tutorial ↗</a> |
+| Red-team probe agent | Cybersecurity | Automated vulnerability analysis and reporting | <a href="https://blogs.cisco.com/security/ai-agent-for-color-red" target="_blank" rel="noopener noreferrer">Cisco red-team flow ↗</a> |
+| Alert triage & response | Cybersecurity | Triage alerts, hunt IOCs, generate reports | <a href="https://radiantsecurity.ai/learn/ai-agents/" target="_blank" rel="noopener noreferrer">SOC agents overview ↗</a> |
 
 ## 🔧 Framework-specific Examples
 
