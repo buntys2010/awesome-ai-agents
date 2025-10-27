@@ -41,7 +41,7 @@ A curated collection of **65+ frameworks**, **80+ research papers**, and **produ
 
 ---
 
-## 🗺️ **Navigation** — *Find What You Need*
+## 🗺️ **Contents** — *Find What You Need*
 
 <table>
 <tr>
