@@ -1,4 +1,4 @@
-# Awesome AI Agents ✨
+# <img src="images/ai-agents-text.png" alt="Awesome AI Agents" height="28" style="vertical-align:middle;">  
 
 > The definitive resource for AI agent frameworks, research, and production deployment
 
