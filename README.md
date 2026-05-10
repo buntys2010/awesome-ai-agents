@@ -224,6 +224,7 @@ Frameworks: 🧠 Agno • 🤖 AutoGen
 | <a href="https://github.com/eosphoros-ai/DB-GPT" target="_blank" rel="noopener noreferrer">DB-GPT ↗</a> | Database queries | 17K |
 | <a href="https://github.com/pgalko/BambooAI" target="_blank" rel="noopener noreferrer">BambooAI ↗</a> | Data exploration | 2.3K |
 | <a href="https://github.com/HumanSignal/Adala" target="_blank" rel="noopener noreferrer">Adala ↗</a> | Data labeling | 2K |
+| [wd041216-bit/zero-api-key-web-search](https://github.com/wd041216-bit/zero-api-key-web-search) | Free web search for AI agents, no API keys, MCP server | 5 |
 
 **🚀 Quick Start**: [Getting Started Guide](guides/getting-started.md)
 
