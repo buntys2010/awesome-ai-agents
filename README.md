@@ -187,6 +187,7 @@ Frameworks: 🧠 Agno • 🤖 AutoGen
 | <a href="https://github.com/OpenBMB/ChatDev" target="_blank" rel="noopener noreferrer">ChatDev ↗</a> | Development team | 27K |
 | <a href="https://github.com/ag2ai/fastagency" target="_blank" rel="noopener noreferrer">FastAgency ↗</a> | AG2 production | 1.8K |
 | <a href="https://github.com/openai/swarm" target="_blank" rel="noopener noreferrer">OpenAI Swarm ↗</a> | Lightweight | 15K |
+| <a href="https://github.com/MarlBurroW/hivekeep" target="_blank" rel="noopener noreferrer">Hivekeep ↗</a> | Self-hosted agent team | 26 |
 
 **🚀 Quick Start**: [Multi-Agent Patterns Guide](patterns/multi-agent-patterns.md)
 
