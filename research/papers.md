@@ -24,6 +24,7 @@ _Last reviewed: October 2025_
 |-------|---------|------------|-----------|-------------------|
 | [Evaluation and Benchmarking of LLM Agents: A Survey](https://arxiv.org/html/2507.21504v1) | Survey Team | arXiv 2025 | - | Two-dimensional taxonomy for agent evaluation |
 | [Beyond Black-Box Benchmarking: Observability and Analytics of Agentic Systems](https://arxiv.org/pdf/2503.06745.pdf) | Research Team | arXiv 2025 | - | Advanced evaluation strategies for agentic systems |
+| [PerspectiveGap: A Benchmark for Multi-Agent Orchestration Prompting](https://arxiv.org/abs/2606.08878) | Sun et al. | arXiv 2026 | - | First benchmark for multi-agent orchestration prompt writing across 110 scenarios and 10 loop topologies |
 
 ### Agent Architecture & Design
 | Title | Authors | Venue/Date | Citations | Key Contributions |
