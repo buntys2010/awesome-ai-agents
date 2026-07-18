@@ -26,12 +26,14 @@ Systems that expose data, tools, and capabilities to MCP clients:
 
 | Server | Description | Use Cases | Documentation |
 |---------|-------------|-----------|---------------|
-| **[GitHub MCP Server](https://github.com/modelcontextprotocol/servers/tree/main/src/github)** | Access GitHub repositories, issues, PRs | Code analysis, project management | [Setup Guide](https://modelcontextprotocol.io/servers/github) |
-| **[Google Drive MCP Server](https://github.com/modelcontextprotocol/servers/tree/main/src/gdrive)** | Access Google Drive files and folders | Document processing, file management | [Setup Guide](https://modelcontextprotocol.io/servers/gdrive) |
-| **[Slack MCP Server](https://github.com/modelcontextprotocol/servers/tree/main/src/slack)** | Interact with Slack channels and messages | Communication, workflow automation | [Setup Guide](https://modelcontextprotocol.io/servers/slack) |
-| **[PostgreSQL MCP Server](https://github.com/modelcontextprotocol/servers/tree/main/src/postgres)** | Database queries and schema access | Data analysis, reporting | [Setup Guide](https://modelcontextprotocol.io/servers/postgres) |
-| **[Puppeteer MCP Server](https://github.com/modelcontextprotocol/servers/tree/main/src/puppeteer)** | Web scraping and browser automation | Web data extraction, testing | [Setup Guide](https://modelcontextprotocol.io/servers/puppeteer) |
-| **[Xquik MCP Server](https://github.com/Xquik-dev/x-twitter-scraper)** | Hosted X data search, profile lookup, media workflows, and account monitoring | Social data, media workflows, monitoring | [MCP Manifest](https://xquik.com/.well-known/mcp.json) |
+| **[GitHub MCP Server](https://github.com/github/github-mcp-server)** | Access GitHub repositories, issues, and pull requests | Code analysis, project management | [Documentation](https://github.com/github/github-mcp-server/blob/main/README.md) |
+| **[Google Drive MCP Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive)** | Archived reference server for Google Drive file access and search | Document processing, file management | [Documentation](https://github.com/modelcontextprotocol/servers-archived/blob/main/src/gdrive/README.md) |
+| **[Slack MCP Server](https://github.com/zencoderai/slack-mcp-server)** | Interact with Slack channels and messages | Communication, workflow automation | [Documentation](https://github.com/zencoderai/slack-mcp-server/blob/main/README.md) |
+| **[PostgreSQL MCP Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres)** | Archived read-only reference server with schema inspection | Data analysis, reporting | [Documentation](https://github.com/modelcontextprotocol/servers-archived/blob/main/src/postgres/README.md) |
+| **[Puppeteer MCP Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer)** | Archived reference server for browser automation | Web data extraction, testing | [Documentation](https://github.com/modelcontextprotocol/servers-archived/blob/main/src/puppeteer/README.md) |
+| **[Xquik MCP Server](https://github.com/Xquik-dev/x-twitter-scraper)** | Hosted X data access with 126 REST operations and 118 MCP operations through 2 tools | Social data search, extraction, and monitoring | [Documentation](https://docs.xquik.com/mcp/overview) |
+
+Xquik is an independent third-party service. Not affiliated with X Corp. "Twitter" and "X" are trademarks of X Corp.
 
 ### MCP Clients
 Applications that consume MCP services:
@@ -146,7 +148,7 @@ async with stdio_client(server_params) as (read, write):
 | Transport | Description | Use Cases | Security |
 |-----------|-------------|-----------|----------|
 | **stdio** | Standard input/output communication | Local development, simple setups | Process isolation |
-| **Streamable HTTP** | HTTP-based MCP transport for remote servers | Hosted connectors, serverless services | HTTPS, bearer tokens or OAuth |
+| **Streamable HTTP** | HTTP-based MCP transport for remote servers | Hosted connectors, serverless services | HTTPS with server-specific authentication |
 | **HTTP + SSE** | HTTP with Server-Sent Events | Web applications, cloud deployments | HTTPS, authentication |
 | **WebSocket** | Bidirectional WebSocket connection | Real-time applications | WSS, token auth |
 
@@ -219,7 +221,7 @@ server_params = SSEServerParameters(
 1. **Design MCP Server**: Define tools and resources to expose
 2. **Implement Server**: Build MCP server with SDK
 3. **Test Locally**: Use stdio transport for development
-4. **Deploy Server**: Host on cloud platform with HTTP or Streamable HTTP transport
+4. **Deploy Server**: Host on a platform with Streamable HTTP transport
 5. **Integrate with Agents**: Connect agents to MCP server
 
 ## 📚 MCP Learning Resources
@@ -258,4 +260,4 @@ If you've built a useful MCP server:
 
 *MCP represents the future of AI agent interoperability. By standardizing how agents connect to external systems, MCP enables a new generation of capable, connected, and collaborative AI applications.*
 
-**Last updated**: January 2025 | **Protocol Version**: 1.0
+**Last updated**: July 2026
