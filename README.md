@@ -358,6 +358,7 @@ python scripts/recommend.py --use_case coding --experience intermediate --deploy
 ### 🏁 **Major Benchmarks**
 - **[AgentBench](evaluation/agentbench.md)** — 8 environments
 - **[WebArena](evaluation/webarena.md)** — Web navigation
+- **[ClawBench](https://claw-bench.com/)** — Live web task completion
 - **[SWE-bench](evaluation/swebench.md)** — Code solving
 - **[τ-Bench](catalog/evaluation.md)** — Real-world reliability
 
