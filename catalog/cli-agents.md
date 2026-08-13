@@ -18,6 +18,7 @@ Developer-focused agents that operate in the shell to automate workflows, genera
 | Amazon Q CLI | https://aws.amazon.com/q/developer/ | CLI | AWS-native dev & ops automation |
 | Continue | https://github.com/continuedev/continue | VS Code | In-IDE agent assistant with tasks |
 | Open Interpreter | https://github.com/KillianLucas/open-interpreter | CLI/Local | Natural language → code execution locally |
+| Atomic Agent | https://github.com/AtomicBot-ai/atomic-agent | CLI/TUI | Runs open-weight models entirely on your machine via a llama.cpp fork, no account or API key required, 56 built-in tools with MCP support; developer preview |
 
 Note: Include additional OSS/paid options via PRs.
 

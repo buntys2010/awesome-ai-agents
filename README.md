@@ -198,6 +198,7 @@ Frameworks: 🧠 Agno • 🤖 AutoGen
 | <a href="https://github.com/gpt-engineer-org/gpt-engineer" target="_blank" rel="noopener noreferrer">GPT Engineer ↗</a> | Code generation | 55K |
 | <a href="https://github.com/stitionai/devika" target="_blank" rel="noopener noreferrer">Devika ↗</a> | Open source Devin | 19K |
 | <a href="https://github.com/BloopAI/bloop" target="_blank" rel="noopener noreferrer">Bloop ↗</a> | Code search | 10K |
+| <a href="https://github.com/AtomicBot-ai/atomic-agent" target="_blank" rel="noopener noreferrer">Atomic Agent ↗</a> | On-device coding | 2.0K |
 
 **🚀 Quick Start**: [Coding Agents Deep Dive](catalog/coding-agents-deep-dive.md)
 
@@ -245,6 +246,7 @@ Frameworks: 🧠 Agno • 🤖 AutoGen
 | <a href="https://github.com/continuedev/continue" target="_blank" rel="noopener noreferrer">Continue ↗</a> | VS Code agent | 28K |
 | Goose CLI | Local terminal | Open source |
 | Amazon Q CLI | AWS operations | Commercial |
+| <a href="https://github.com/AtomicBot-ai/atomic-agent" target="_blank" rel="noopener noreferrer">Atomic Agent ↗</a> | Local-first CLI/TUI | 2.0K |
 
 **🚀 Quick Start**: [CLI Agents Guide](catalog/cli-agents.md)
 
