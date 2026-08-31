@@ -20,6 +20,7 @@ Evaluating AI agents is critical for:
 | **AgentBench** | General agent capabilities | 8 environments | OS, Web, Games, DB | High | [GitHub](https://github.com/THUDM/AgentBench) |
 | **τ-Bench (TAU-Bench)** | Real-world reliability | Retail, travel, service | Web-based | High | [Website](https://sierra.ai/blog/benchmarking-ai-agents) |
 | **WebArena** | Web navigation | 812 tasks | Live websites | Medium-High | [Website](https://webarena.dev/) |
+| **ClawBench** | Live web task completion | 283 tasks | Live websites | High | [Project](https://claw-bench.com/) · [GitHub](https://github.com/TIGER-AI-Lab/ClawBench) |
 | **ToolBench** | Tool usage | 16,464 APIs | Real APIs | Medium | [GitHub](https://github.com/OpenBMB/ToolBench) |
 | **SWE-bench** | Software engineering | 2,294 GitHub issues | Real repositories | High | [Website](https://www.swebench.com/) |
 | **GAIA** | General assistant tasks | 466 questions | Multi-modal | High | [Hugging Face](https://huggingface.co/spaces/gaia-benchmark/leaderboard) |
@@ -306,4 +307,3 @@ Evaluate agents across multiple dimensions:
 ---
 
 **Key Takeaway**: Comprehensive agent evaluation requires multiple benchmarks, diverse metrics, and continuous monitoring. The field is rapidly evolving, with new benchmarks emerging to address specific agent capabilities and safety concerns.
-
