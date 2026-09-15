@@ -368,6 +368,7 @@ python scripts/recommend.py --use_case coding --experience intermediate --deploy
 - **[AgentOps](https://github.com/AgentOps-AI/agentops)** — Monitoring
 - **[E2B](https://github.com/e2b-dev/e2b)** — Sandboxing
 - **[LangSmith](https://smith.langchain.com/)** — LangChain eval
+- [HostDeFi](https://hostdefi.com) — free token-safety scanner grading tokens A+–F from on-chain checks (mint/freeze authority, liquidity, holder concentration) across Solana + 7 EVM chains. Keyless REST API, hosted MCP, x402 endpoints.
 
 </td>
 <td width="33%">
