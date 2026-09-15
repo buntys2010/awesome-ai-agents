@@ -18,6 +18,7 @@ Developer-focused agents that operate in the shell to automate workflows, genera
 | Amazon Q CLI | https://aws.amazon.com/q/developer/ | CLI | AWS-native dev & ops automation |
 | Continue | https://github.com/continuedev/continue | VS Code | In-IDE agent assistant with tasks |
 | Open Interpreter | https://github.com/KillianLucas/open-interpreter | CLI/Local | Natural language → code execution locally |
+| Bernstein | https://github.com/sipyourdrink-ltd/bernstein | CLI/Orchestrator | Drives 40+ CLI coding agents in parallel git worktrees, deterministic scheduler, HMAC audit log |
 
 Note: Include additional OSS/paid options via PRs.
 
