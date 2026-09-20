@@ -82,6 +82,7 @@ A curated collection of **65+ frameworks**, **80+ research papers**, and **produ
 ---
 
 ## 🔥 **What's New** — *Latest Updates*
+- [Continuum-AI-Corp/OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) — record a known-good agent run once, replay it to catch regressions.
 
 **October 2025 Updates:**
 - ✨ **Use Cases** — Now organized by use case first with framework mapping, plus external Code/Guide links
