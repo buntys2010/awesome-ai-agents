@@ -20,6 +20,11 @@ Commercial and cloud-native platforms that offer governance, observability, secu
 - Overview: Agents for engineering teams (ops, on-call, docs)
 - Site: https://www.fine.dev/
 
+## Agent Barn
+- Overview: Open-source (Apache-2.0) control plane for AI agent teams - chat front ends in Slack, Teams, Telegram, Discord and email; agents work across Jira, GitHub, Confluence and more; every conversation, tool call, log and cost is recorded. Runs agent runtimes like Hermes and OpenClaw on your own Kubernetes cluster, deployed with Helm.
+- Site: https://agentbarn.dev
+- Repo: https://github.com/aai-labs/agent-barn
+
 ---
 
 ## What to look for (Enterprise Checklist)
