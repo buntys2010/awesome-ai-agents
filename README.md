@@ -327,6 +327,7 @@ python scripts/recommend.py --use_case coding --experience intermediate --deploy
 - 🔧 **[Tool Integrations](catalog/tool-integrations.md)**  
   *API connectors + specialized tools*
 - ⚙️ **[Scripts & Automation](scripts/)**  
+- [Public Records MCP](https://github.com/GeminiGeorge22/publicrecords-mcp) - 18 Apify-hosted MCP servers for public data: SAM.gov, Grants.gov, USAspending, EU TED and UK tenders, city council meetings, Ashby/Greenhouse/Lever/SmartRecruiters jobs, company social links, Google Ads Transparency, Etsy sales, sports odds, Spotify play counts.
   *Maintenance utilities*
 
 </td>
